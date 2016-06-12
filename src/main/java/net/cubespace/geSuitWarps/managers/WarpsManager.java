@@ -25,7 +25,7 @@ public class WarpsManager {
         } catch ( IOException e ) {
             e.printStackTrace();
         }
-        new PluginMessageTask( b ).runTaskAsynchronously( geSuitWarps.instance );
+        new PluginMessageTask( b ).runTaskAsynchronously( geSuitWarps.INSTANCE);
     }
 
     public static void setWarp( CommandSender sender, String name, boolean hidden, boolean global ) {
@@ -47,7 +47,7 @@ public class WarpsManager {
         } catch ( IOException e ) {
             e.printStackTrace();
         }
-        new PluginMessageTask( b ).runTaskAsynchronously( geSuitWarps.instance );
+        new PluginMessageTask( b ).runTaskAsynchronously( geSuitWarps.INSTANCE);
     }
 
     public static void deleteWarp( CommandSender sender, String warp ) {
@@ -60,7 +60,7 @@ public class WarpsManager {
         } catch ( IOException e ) {
             e.printStackTrace();
         }
-        new PluginMessageTask( b ).runTaskAsynchronously( geSuitWarps.instance );
+        new PluginMessageTask( b ).runTaskAsynchronously( geSuitWarps.INSTANCE);
     }
 
 
@@ -77,6 +77,6 @@ public class WarpsManager {
         } catch ( IOException e ) {
             e.printStackTrace();
         }
-        new PluginMessageTask( b ).runTaskAsynchronously( geSuitWarps.instance );
+        new PluginMessageTask( b ).runTaskAsynchronously( geSuitWarps.INSTANCE);
     }
 }

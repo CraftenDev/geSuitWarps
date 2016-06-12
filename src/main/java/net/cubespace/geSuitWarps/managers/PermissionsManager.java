@@ -6,14 +6,14 @@ import org.bukkit.entity.Player;
 public class PermissionsManager {
 
     public static void addAllPermissions( Player player ) {
-        player.addAttachment( geSuitWarps.instance, "gesuit.warps.*", true );
+        player.addAttachment( geSuitWarps.INSTANCE, "gesuit.warps.*", true );
     }
 
     public static void addAdminPermissions( Player player ) {
-        player.addAttachment( geSuitWarps.instance, "gesuit.warps.admin", true );
+        player.addAttachment( geSuitWarps.INSTANCE, "gesuit.warps.admin", true );
     }
 
     public static void addUserPermissions( Player player ) {
-        player.addAttachment( geSuitWarps.instance, "gesuit.warps.user", true );
+        player.addAttachment( geSuitWarps.INSTANCE, "gesuit.warps.user", true );
     }
 }
